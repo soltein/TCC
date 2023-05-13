@@ -1,0 +1,20 @@
+@startuml Shaped
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+SHOW_PERSON_PORTRAIT()
+Person(cliente, "Cliente", "Pessoa que quer fazer um pedido de comida")
+Person(administrador, "Administrador", "Pessoa que usa o sistema no dia a dia, faz cadastros, etc.")
+Person(atendente, "Atendente", "Pessoa que atende ao cliente via telefone ou whatsapp e lança o pedido no sistema.")
+
+System_Ext(ifood,"Ifood","Sistema do ifood que envia pedidos ao nosso sistema")
+System_Ext(pagseguro,"PagSeguro","Sistema de pagamentos online")
+
+Container(sistema_delivery, "Pop Food System ", "Software System", "Sistema de gerenciamento completo do estabelecimento.")  
+
+Rel(cliente,sistema_delivery,"Pede comida","")
+Rel(cliente,atendente,"Pede comida","")
+Rel(administrador,sistema_delivery,"Faz os cadastros do sistema","")
+Rel(atendente,sistema_delivery,"Faz o lançamento dos pedidos","")
+Rel(ifood,sistema_delivery, "Envia o pedido","")
+Rel(sistema_delivery, pagseguro, "Solicita a cobrança","")
+@enduml

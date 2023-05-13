@@ -1,0 +1,75 @@
+@startuml
+!define SHOW_COMPONENT_INTERFACE
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+SHOW_PERSON_PORTRAIT()
+
+System_Ext(FrontEnd_Cliente,"Front End Cliente","")
+System_Ext(FrontEnd_Atendente,"Front End Atendente","")
+
+Container_Boundary(popfood, "BackEnd", "Divisão do Sistema") {
+    Component(LoginController, "Login Controller", "Responsável por gerenciar a autenticação do usuário", "")
+    Component(LoginService, "Login Service", "Realiza a autenticação do usuário", "")
+    Component(Login, "Login Model", "Representação da estrutura do banco em objeto", "")
+    Component(LoginRepository, "Login Repository", "Padrão para abstrair acesso aos dados", "")
+
+    Component(UserController, "User Controller", "Responsável por gerenciar as informações do usuário", "")
+    Component(UserService, "User Service", "Realiza o gerenciamento das informações do usuário", "")
+    Component(User, "User Model", "Representação da estrutura do banco em objeto", "")
+    Component(UserRepository, "User Repository", "Padrão para abstrair acesso aos dados", "")    
+
+    Component(OrderController, "Order Controller", "Responsável por gerenciar os pedidos do usuário", "")
+    Component(OrderService, "Order Service", "Realiza o gerenciamento dos pedidos do usuário", "")
+    Component(Order, "Order Model", "Representação da estrutura do banco em objeto", "")
+    Component(OrderRepository, "Order Repository", "Padrão para abstrair acesso aos dados", "")
+
+
+    Component(ProductController, "Product Controller", "", "")
+    Component(ProductService, "Product Service","", "")
+    Component(Product, "Product Model", "Representação da estrutura do banco em objeto", "")
+    Component(ProductRepository, "Product Repository", "Padrão para abstrair acesso aos dados", "")
+
+}
+
+ContainerDb(banco_dados, "Banco de Dados", "PostgreSQL", "Armazena informações do sistema",  $sprite="postgresql")
+
+
+Rel(FrontEnd_Cliente, LoginController, "Acesso ao sistema", "REST/JSON")
+Rel(FrontEnd_Cliente, UserController, "Acesso ao sistema", "REST/JSON")
+Rel(FrontEnd_Cliente, OrderController, "Acesso ao sistema", "REST/JSON")
+
+Rel(FrontEnd_Atendente, LoginController, "Acesso ao sistema", "REST/JSON")
+Rel(FrontEnd_Atendente, UserController, "Acesso ao sistema", "REST/JSON")
+Rel(FrontEnd_Atendente, OrderController, "Acesso ao sistema", "REST/JSON")
+Rel(FrontEnd_Atendente, ProductController, "Acesso ao sistema", "REST/JSON")
+
+Rel(LoginController, LoginService, "Usa", "")
+Rel(LoginService, LoginRepository, "Usa", "")
+Rel(LoginRepository, Login , "Usa", "")
+
+Rel(UserController, UserService, "Usa", "")
+Rel(UserService, UserRepository, "Usa", "")
+Rel(User, UserRepository, "Usa", "")
+
+Rel(OrderController, OrderService, "Usa", "")
+Rel(OrderService, OrderRepository, "Usa", "")
+Rel(OrderRepository, Order, "Usa", "")
+
+Rel(ProductController, ProductService, "Usa", "")
+Rel(ProductService, ProductRepository, "Usa", "")
+Rel(ProductRepository, Product, "Usa", "")
+
+Rel(LoginRepository, banco_dados, "Interface com banco de dados", "JDBC")
+
+Rel(UserRepository, banco_dados, "Interface com banco de dados", "JDBC")
+
+Rel(OrderRepository, banco_dados, "Interface com banco de dados", "JDBC")
+
+Rel(ProductRepository, banco_dados, "Interface com banco de dados", "JDBC")
+
+
+
+
+
+
+@enduml

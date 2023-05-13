@@ -1,0 +1,33 @@
+@startuml
+!define SHOW_CONTAINER_CONTAINERS_ONLY
+!define SHOW_CONTAINER_FRAME
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+SHOW_PERSON_PORTRAIT()
+
+Person(cliente, "Cliente", "Pessoa que quer fazer um pedido de comida")
+Person(administrador, "Administrador", "Pessoa que usa o sistema no dia a dia, faz cadastros, etc.")
+Person(atendente, "Atendente", "Pessoa que atende ao cliente via telefone ou whatsapp e lança o pedido no sistema.")
+
+System_Ext(ifood,"Ifood","Sistema do ifood que envia pedidos ao nosso sistema")
+System_Ext(pagseguro,"PagSeguro","Sistema de pagamentos online")
+
+frame Pop_Food_System_Delivery {
+'  Container(frontend_cliente, "Frontend cliente", "Web/mobile app", "Cliente faz pedidos e paga online")
+'  Container(frontend_administrador, "Frontend administração", "Web app", "Administrador/Atendente faz cadastros e gerencia pedidos")
+  Container(sistema_delivery, "Sistema Pop Food Gerenciamento ", "Software System", "Sistema de gerenciamento completo do estabelecimento.")
+}
+
+'Rel(cliente, frontend_cliente, "Faz pedido", "")
+'Rel(frontend_cliente, sistema_delivery, "Envia pedido", "")
+'Rel(administrador, frontend_administrador, "Gerencia sistema", "")
+'Rel(frontend_administrador, sistema_delivery, "Acessa sistema", "")
+'Rel(atendente, frontend_administrador, "Lança pedido", "")
+
+Rel(cliente, sistema_delivery, "Faz pedido", "")
+Rel(administrador, sistema_delivery, "Gerencia sistema", "")
+Rel(atendente, sistema_delivery, "Lança pedido", "")
+Rel(sistema_delivery, pagseguro, "Solicita pagamento", "")
+Rel(sistema_delivery, ifood, "Recebe pedido", "")
+
+@enduml

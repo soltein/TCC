@@ -1,0 +1,151 @@
+\pgfmathsetmacro\nreq{0}
+\chapter{Requisitos Funcionais}
+Abaixo listamos os requisitos funcionais da aplicação\cite{Sommerville:2011}.
+Os requisitos terão níveis de dificuldade e prioridades definidos em B - Baixa, M - Média e A - Alta.
+
+\section{Módulo de produtos}
+\vspace{0.5cm}
+
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de produtos}
+O sistema deve permitir que o colaborador cadastre produtos com nome, categoria, preço de custo por tamanho, preço de venda por tamanho, 
+unidade de medida, descrição, foto, se será feito controle de estoque, ficha técnica, complementos.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{M -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de categoria}
+O sistema deve permitir cadastrar a categoria de produtos, definindo possiveis tamanhos dos produtos nessa categoria ou tamanho únicoa, por exemplo: Refrigerantes, definir os 
+tamanhos 350ml, 500ml, 1l, 1.5l, 2l, etc.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{M -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de complementos}
+O sistema deverá permitir cadastrar complementos e seus valores, os mesmos deverão ser ligados ao tamanho do produto no cadastro de produtos.
+Exemplo: Acrescimo de Bacon pizza M, Acrescimo de Bacon pizza G e assim por diante.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{B -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de combos}
+O sistema deverá permitir o cadastro de combos, juntando vários produtos cadastrados em um combo e definindo o valor
+para o combo.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+
+\section{Módulo de clientes}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de clientes}
+O sistema deve permitir cadastrar os clientes com nome, email, data nascimento, telefone principal, cpf ou cnpj, identidade ou 
+inscrição estadual, endereço principal(endereço, número, complemento, bairro, cidade, cep, valor do frete).
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{B -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de endereços de clientes}
+O sistema deverá permitir cadastrar mais endereços para o cliente, com nome do endereço e os campos definidos no requisito RF-004.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{B -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+
+\section{Módulo de pedidos}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de pedidos delivery}
+O sistema deve permitir cadastrar pedidos para os clientes, selecionando cliente, produtos, endereço de entrega,
+forma de pagamento, status do pedido(Aberto, Em preparo, Pronto/Para retirar, Saiu para Entregar, Finalizado/Entregue),
+lançamento de desconto ou taxa de serviço.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de pedidos mesa}
+O sistema deve permitir cadastrar pedidos para os clientes no estabelecimento, selecionando cliente, produtos, 
+forma de pagamento, status do pedido(Aberto, Em preparo, Pronto/Para retirar, Saiu para Entregar, Finalizado/Entregue),
+lançamento de desconto ou taxa de serviço, divisão de valores.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de pedidos cliente}
+O sistema deve permitir que o próprio cliente faça seu pedido online, selecionando os produtos, endereço de entrega.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+
+\section{Módulo de estoque}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Cadastro de ingredientes}
+O sistema deve permitir o gerenciamento do estoque através do cadastro de ingredientes, e nos produtos que 
+controlam estoque ter a ficha técnica dos mesmos ligadas aos ingredientes. O cadastro deverá ter informações
+como nome do ingrediente, unidade de medida, data de vencimento, preço de custo.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Relatório de estoque}
+O sistema deve possuir relatorio que mostre o estoque de produtos e os produtos com vencimento próximo, de modo a 
+evitar perdas.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+
+\section{Módulo financeiro}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Formas de pagamento}
+O sistema deve permitir o gerenciamento das formas de pagamento, para que possam ser selecionadas no lançamento do
+pedido. Exemplo: Cartão de Credito, Cartão de Débito, Dinheiro, Pix, etc. Também as respectivas bandeiras quando 
+necessário.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{M}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Pagamento Online}
+O sistema deve fazer integração com pelo menos 1 meio de pagamento online como pagseguro ou mercado pago.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{B}
+\vspace{0.5cm}
+
+\section{Módulo autenticação/autorização}
+\vspace{0.5cm}
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Níveis de acesso}
+O sistema deve permitir o cadastro/gerenciamento de níveis de acesso, a principio dois níveis serão suficientes: Usuário e 
+Administrador.
+Os usuários poderão fazer lançamento de pedidos, cadastros de clientes.
+Os administradores terão acesso irrestrito ao sistema.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{B -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+
+\pgfmathtruncatemacro\nreq{\nreq + 1}
+\subsection{RF-\nreq: Autenticação}
+O sistema deve ser fechado, não permitido o acesso a ele, somente para usuários cadastrados através de autenticação.
+Clientes externos deverão poder acessar um cardápio online e ao efetuar pedido fazer o devido cadastro.
+
+\vspace{0.5cm}
+\noindent\textbf{\textit{Dificuldade:}} \textit{A -} \textbf{\textit{Prioridade:}} \textit{A}
+\vspace{0.5cm}
+

@@ -1,0 +1,20 @@
+@startuml
+title Sistema de Delivery
+
+package "Front-end" {
+  [Front End Cliente]
+  [Front End Atendente]
+}
+
+package "Back-end" {
+    [Login Managment]
+    [User Managment]
+    [Order Managment]
+    [Product Managment]
+}
+
+  [Banco de Dados]
+  [PagSeguro]
+
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/angular.puml
+!include DEVICONS/java.puml
+!include DEVICONS/postgresql.puml
+
+
+SHOW_PERSON_PORTRAIT()
+
+Person(cliente, "Cliente", "Pessoa que quer fazer um pedido de comida")
+Person(administrador, "Administrador", "Pessoa que usa o sistema no dia a dia, faz cadastros, etc.")
+Person(atendente, "Atendente", "Pessoa que atende ao cliente via telefone ou whatsapp e lança o pedido no sistema.")
+
+System_Ext(ifood,"Ifood","Sistema do ifood que envia pedidos ao nosso sistema")
+System_Ext(pagseguro,"PagSeguro","Sistema de pagamentos online")
+
+System_Boundary(popfood, "Pop Food System") {
+  Container(frontend_cliente, "Frontend cliente", "Angular", "Cliente faz pedidos e paga online",  $sprite="angular")
+  Container(frontend_administrador, "Frontend administração", "Angular", "Administrador/Atendente faz cadastros e gerencia pedidos",  $sprite="angular")
+  Container(sistema_delivery, "BackEnd ", "Java Spring", "Sistema de gerenciamento completo do estabelecimento.", $sprite="java")
+  ContainerDb(banco_dados, "Banco de Dados", "PostgreSQL", "Armazena informações do sistema",  $sprite="postgresql")
+}
+
+Rel(cliente, frontend_cliente, "Faz pedido", "HTTPS")
+Rel(frontend_cliente, sistema_delivery, "Envia pedido", "REST/JSON")
+Rel(frontend_administrador, sistema_delivery, "Acessa sistema", "REST/JSON")
+Rel(administrador, frontend_administrador, "Gerencia sistema", "HTTPS")
+Rel(atendente, frontend_administrador, "Lança pedido", "HTTPS")
+Rel_R(sistema_delivery, banco_dados, "Reads/Writes", "JDBC")
+Rel(sistema_delivery, pagseguro, "Solicita pagamento", "REST/JSON")
+Rel(sistema_delivery, ifood, "Recebe pedido", "REST/JSON")
+
+@enduml

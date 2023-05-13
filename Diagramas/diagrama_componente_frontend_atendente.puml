@@ -1,0 +1,23 @@
+@startuml
+!define SHOW_COMPONENT_INTERFACE
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+SHOW_PERSON_PORTRAIT()
+Person(administrador, "Administrador", "Pessoa que usa o sistema no dia a dia, faz cadastros, etc.")
+Person(atendente, "Atendente", "Pessoa que atende ao cliente via telefone ou whatsapp e lança o pedido no sistema.")
+
+Container_Boundary(FronEnd_Administracao, "Frontend Administração", "Divisão do Sistema") {
+    Component(LoginController, "Login Controller", "Responsável por gerenciar a autenticação do usuário", "Angular")
+    Component(LoginService, "Login Service", "Realiza a autenticação do usuário", "Angular")
+    Component(UserController, "User Controller", "Responsável por gerenciar as informações do usuário", "Angular")
+    Component(UserService, "User Service", "Realiza o gerenciamento das informações do usuário", "Angular")
+
+    Component(OrderController, "Order Controller", "Responsável por gerenciar os pedidos do usuário", "Angular")
+    Component(OrderService, "Order Service", "Realiza o gerenciamento dos pedidos do usuário", "Angular")
+
+}
+
+System_Ext(sistema_delivery, "BackEnd ", "Java Spring", "Sistema de gerenciamento completo do estabelecimento.")
+
+
+@enduml

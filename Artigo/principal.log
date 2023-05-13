@@ -1,0 +1,411 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.18)  13 MAY 2023 10:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"e:/Arquivos/Documentos/Estudos/Pós-Puc/Projeto Integrado/TCC/principal.tex"
+(e:/Arquivos/Documentos/Estudos/Pós-Puc/Projeto Integrado/TCC/principal.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Program Files\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count197
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks18
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen152
+\stockheight=\dimen153
+))
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+) (C:\Program Files\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box52
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex
+\pgf@x=\dimen158
+\pgf@xa=\dimen159
+\pgf@xb=\dimen160
+\pgf@xc=\dimen161
+\pgf@y=\dimen162
+\pgf@ya=\dimen163
+\pgf@yb=\dimen164
+\pgf@yc=\dimen165
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count268
+\pgfmath@box=\box53
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count269
+))) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box54
+) (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux))
+\openout1 = `principal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(42.67912pt, 700.96107pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=700.96107pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen167
+\scratchbox=\box55
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen168
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks27
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\openout2 = `pagina-de-rosto.aux'.
+
+ (pagina-de-rosto.tex [1
+
+
+{C:/Users/julio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]) (principal.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `principal.toc'.
+
+ [1
+
+
+
+]
+\openout2 = `introducao.aux'.
+
+ (introducao.tex
+Chapter 1.
+) [2
+
+
+]
+\openout2 = `objetivos.aux'.
+
+ (objetivos.tex
+Chapter 2.
+) [3
+
+
+
+
+]
+\openout2 = `restricoes_arquiteturais.aux'.
+
+ (restricoes_arquiteturais.tex
+Chapter 3.
+) [4
+
+
+
+
+]
+\openout2 = `requisitos_funcionais.aux'.
+
+ (requisitos_funcionais.tex
+Chapter 4.
+[5
+
+
+
+
+]
+Overfull \hbox (9.20303pt too wide) in paragraph at lines 65--68
+\OT1/cmr/m/n/12 preparo, Pronto/Para re-ti-rar, Saiu para En-tre-gar, Fi-nal-izado/Entregue), lan^^Xcamento
+ []
+
+
+Overfull \hbox (9.20303pt too wide) in paragraph at lines 75--78
+\OT1/cmr/m/n/12 preparo, Pronto/Para re-ti-rar, Saiu para En-tre-gar, Fi-nal-izado/Entregue), lan^^Xcamento
+ []
+
+[6]) [7]
+\openout2 = `requisitos_nao_funcionais.aux'.
+
+ (requisitos_nao_funcionais.tex
+Chapter 5.
+
+Overfull \hbox (23.21118pt too wide) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/12 Abaixo lis-ta-mos os req-ui-si-tos n~ao fun-cionais da aplica^^Xc~ao em ter-mos arquiteturais[[]]. 
+ []
+
+[8
+
+
+
+
+]) [9]
+\openout2 = `mecanismos_arquiteturais.aux'.
+
+ (mecanismos_arquiteturais.tex
+Chapter 6.
+
+Underfull \hbox (badness 2707) in paragraph at lines 34--34
+[]\OT1/cmr/m/n/12 Utiliza^^Xc~ao do Hi-ber-nate como
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 34--34
+\OT1/cmr/m/n/12 tografia uni-di-re-cional para ar-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 34--34
+\OT1/cmr/m/n/12 SHA-256 ou bcrypt, e im-ple-
+ []
+
+) [10
+
+
+
+
+]
+\openout2 = `modelagem_arquitetural.aux'.
+
+ (modelagem_arquitetural.tex
+Chapter 7.
+<diagrama_contexto.png, id=44, 636.3775pt x 612.2875pt>
+File: diagrama_contexto.png Graphic file (type png)
+<use diagrama_contexto.png>
+Package pdftex.def Info: diagrama_contexto.png  used on input line 8.
+(pdftex.def)             Requested size: 209.12683pt x 201.2053pt.
+) [11
+
+
+
+
+ <./diagrama_contexto.png (PNG copy)>] (principal.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+[]\OT1/cmr/m/n/12 Abrasel.  Im-pacto da covid no se-tor de al-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+\OT1/cmr/m/n/12 menta^^Xc~ao.  $\OT1/cmtt/m/n/12 https : / / www . abrasel . com . br / noticias /
+ []
+
+
+Overfull \hbox (101.02415pt too wide) in paragraph at lines 4--10
+\OT1/cmtt/m/n/12 5242-[]nota-[]abrasel-[]sobre-[]impacto-[]do-[]covid-[]19-[]no-[]setor-[]de-[]alimentacao-[]fora-[]do-[]lar .
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 12--19
+[]\OT1/cmr/m/n/12 FGV.  O 'boom' das platafor-mas de de-liv-ery no brasil e suas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--19
+\OT1/cmr/m/n/12 con-sequ^encias pe-cu-liares.  $\OT1/cmtt/m/n/12 https : / / portal . fgv . br / artigos /
+ []
+
+
+Overfull \hbox (1.98796pt too wide) in paragraph at lines 12--19
+\OT1/cmtt/m/n/12 boom-[]plataformas-[]delivery-[]brasil-[]e-[]suas-[]consequencias-[]peculiares$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+[]\OT1/cmr/m/n/12 Reda^^Xc~ao IFB.  A trans-forma^^Xc~ao dig-i-tal em bares e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+\OT1/cmr/m/n/12 restau-rantes.  $\OT1/cmtt/m/n/12 https : / / foodbizbrasil . com / negocios /
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 21--27
+\OT1/cmtt/m/n/12 a-[]transformacao-[]digital-[]em-[]bares-[]e-[]restaurantes/$\OT1/cmr/m/n/12 , 2023.  [Aces-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+[]\OT1/cmr/m/n/12 Lucas Muribeca.  De-liv-ery de al-i-men-tos deve au-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+\OT1/cmr/m/n/12 men-tar 7,5 $\OT1/cmtt/m/n/12 https : / / redepara . com . br / Noticia / 231697 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+\OT1/cmtt/m/n/12 delivery-[]de-[]alimentos-[]deve-[]aumentar-[]7-[]5-[]em-[]2023-[]no-[]brasil# : [] :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+\OT1/cmtt/m/n/12 text = De % 20acordo % 20com % 20o % 20Instituto ,[] restaurante % 20Engenho %
+ []
+
+) [12
+
+
+
+] (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux)) ) 
+Here is how much of TeX's memory you used:
+ 8023 strings out of 475385
+ 157621 string characters out of 2786722
+ 481061 words of memory out of 3000000
+ 29258 multiletter control sequences out of 15000+600000
+ 474511 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,13n,62p,426b,317s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\julio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on principal.pdf (14 pages, 131728 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

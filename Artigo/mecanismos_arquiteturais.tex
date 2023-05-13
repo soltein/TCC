@@ -1,0 +1,35 @@
+\pgfmathsetmacro\nreqnf{0}
+\chapter{Mecanismos Arquiteturais}
+Abaixo listamos os mecanismos que irão compor a arquitetura do software proposto.
+\begin{table}[h]
+    \caption{Módulo Cadastros}
+
+    \vspace{0.5cm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|p{6cm}|p{6cm}|}
+        \hline
+        Análise & Design & Implementação \\ % Note a separação de col. e a quebra de linhas
+        \hline                               % para uma linha horizontal
+        Mapeamento objeto-relacional & Utilização do padrão de projeto Data Access Object (DAO) & Utilização do Hibernate como framework ORM \\      
+        \hline      
+        Gerenciamento de dados estruturados & Modelagem de banco de dados relacional & Utilização do PostgreSQL como SGBD \\      
+        \hline    
+        Autenticação de usuários &  Utilização de algoritmo de criptografia unidirecional para armazenamento de senhas, como SHA-256 ou bcrypt, e implementação de um mecanismo de validação de login e senha no servidor. & Utilização de um framework de autenticação, como Spring Security \\      
+        \hline   
+        Integração entre diferentes sistemas &  Utilização de protocolos e formatos de dados interoperáveis, como JSON & Utilização de APIs RESTful para comunicação entre os sistemas.\\      
+        \hline  
+        Registro de atividades do sistema (log) & Utilização de frameworks de logging &  Log4j \\      
+        \hline
+        Gerenciamento de versões de código & Utilização de um sistema de controle de versão &  GitHub \\      
+        \hline
+        Documentação das APIs & Utilização ferramentas de documentação &  Swagger \\      
+        \hline   
+        Teste do Software & Utilização de testes unitários, trabalhar com a metodologia TDD &  JUnit \\      
+        \hline
+        Front-end & Interface de comunicação com o usuário do sistema &  Angular \\      
+        \hline   
+        Back-end & Utilização de arquitetura MVC e injeção de dependências &  Spring framework \\      
+        \hline                                
+    \end{tabular}
+    }
+\end{table}
