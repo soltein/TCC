@@ -1,0 +1,44 @@
+\contentsline {chapter}{\numberline {1}Introdução}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Objetivo}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Objetivos Específicos}{4}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Restrições Arquiteturais}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Requisitos Funcionais}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Módulo de produtos}{6}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}RF-1: Cadastro de produtos}{6}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}RF-2: Cadastro de categoria}{6}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}RF-3: Cadastro de complementos}{6}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}RF-4: Cadastro de combos}{6}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Módulo de clientes}{6}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}RF-5: Cadastro de clientes}{6}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}RF-6: Cadastro de endereços de clientes}{7}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Módulo de pedidos}{7}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}RF-7: Cadastro de pedidos delivery}{7}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}RF-8: Cadastro de pedidos mesa}{7}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}RF-9: Cadastro de pedidos cliente}{7}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Módulo de estoque}{7}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}RF-10: Cadastro de ingredientes}{7}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}RF-11: Relatório de estoque}{7}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Módulo financeiro}{8}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}RF-12: Formas de pagamento}{8}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}RF-13: Pagamento Online}{8}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Módulo autenticação/autorização}{8}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}RF-14: Níveis de acesso}{8}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}RF-15: Autenticação}{8}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {5}Requisitos Não Funcionais}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Manutenabilidade}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}RNF-1: Desenvolvimento em camadas}{9}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Usabilidade}{9}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}RNF-2: Padrão de interfaces}{9}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Segurança}{9}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}RNF-3: Banco de dados}{9}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}RNF-4: Autenticação/Autorização}{9}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Interoperabilidade}{9}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}RNF-5: Comunicação com sistema de pagamento}{9}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}Desempenho}{10}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}RNF-6: Acesso após Autenticação}{10}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}Mecanismos Arquiteturais}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Modelagem Arquitetural}{12}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Diagrama de Contexto}{12}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Diagrama de Container}{13}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Diagrama de Componentes}{14}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Vídeo Apresentação 1}{15}{chapter.8}%
