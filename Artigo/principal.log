@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.18)  13 MAY 2023 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.18)  29 JUL 2023 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,31 +229,116 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip53
+) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count281
+\multirow@dima=\skip55
+\bigstrutjot=\dimen171
+) (C:\Program Files\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box54
+\extrarowheight=\dimen173
+\NC@list=\toks26
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen174
+\TX@old@table=\dimen175
+\TX@old@col=\dimen176
+\TX@target=\dimen177
+\TX@delta=\dimen178
+\TX@cols=\count282
+\TX@ftn=\toks27
+) (C:\Program Files\MiKTeX\tex/latex/cellspace\cellspace.sty
+Package: cellspace 2022/01/04 v1.9.0 Spacing table cells (JN)
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen179
+\calc@Bdimen=\dimen180
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip60
+) (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+)
+\XKV@depth=\count286
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\cellspacetoplimit=\dimen181
+\cellspacebottomlimit=\dimen182
+\cellspace@firstht=\dimen183
+\cellspace@lastdp=\dimen184
+) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+\everycr=\toks30
+\minrowclearance=\skip61
+\rownum=\count287
+) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
-\l__pdf_internal_box=\box54
-) (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux))
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box56
+) (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux) (atam.aux))
 \openout1 = `principal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -291,24 +376,30 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen171
-\scratchbox=\box55
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen172
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count289
+\scratchdimen=\dimen185
+\scratchbox=\box57
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen186
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks32
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 31.
  (principal.out) (principal.out)
 \@outlinefile=\write3
 \openout3 = `principal.out'.
@@ -342,7 +433,7 @@ l.42 ....2}Diagrama de Container}{13}{section.7.2}
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \include{introducao.tex}
+l.37 \include{introducao.tex}
                               [2]
 \openout2 = `introducao.aux'.
 
@@ -413,7 +504,7 @@ Overfull \hbox (23.21118pt too wide) in paragraph at lines 3--4
 Chapter 6.
 
 Underfull \hbox (badness 2707) in paragraph at lines 34--34
-[]\OT1/cmr/m/n/12 Utiliza^^Xc~ao do Hi-ber-nate como
+[]|\OT1/cmr/m/n/12 Utiliza^^Xc~ao do Hi-ber-nate como
  []
 
 
@@ -436,7 +527,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 34--34
 
  (modelagem_arquitetural.tex
 Chapter 7.
-<diagrama_contexto.png, id=297, 636.3775pt x 612.2875pt>
+<diagrama_contexto.png, id=412, 636.3775pt x 612.2875pt>
 File: diagrama_contexto.png Graphic file (type png)
 <use diagrama_contexto.png>
 Package pdftex.def Info: diagrama_contexto.png  used on input line 12.
@@ -447,25 +538,139 @@ Package pdftex.def Info: diagrama_contexto.png  used on input line 12.
 
 
  <./diagrama_contexto.png (PNG copy)>]
-<diagrama_container.png, id=304, 775.89874pt x 943.525pt>
+<diagrama_container.png, id=419, 775.89874pt x 943.525pt>
 File: diagrama_container.png Graphic file (type png)
 <use diagrama_container.png>
 Package pdftex.def Info: diagrama_container.png  used on input line 31.
 (pdftex.def)             Requested size: 376.42575pt x 457.75304pt.
-<diagrama_componentes.png, id=306, 1576.89125pt x 1105.12875pt>
+<diagrama_componentes.png, id=421, 1576.89125pt x 1105.12875pt>
 File: diagrama_componentes.png Graphic file (type png)
 <use diagrama_componentes.png>
 Package pdftex.def Info: diagrama_componentes.png  used on input line 44.
 (pdftex.def)             Requested size: 418.25368pt x 293.11067pt.
- [13 <./diagrama_container.png (PNG copy)>]) [14 <./diagrama_componentes.png>]
+ [13 <./diagrama_container.png (PNG copy)>]
+Overfull \hbox (1.08224pt too wide) in paragraph at lines 58--59
+[]\OT1/cmr/m/n/12 Order Man-ag-ment: Com-po-nente que rep-re-senta o c^^Sodigo que ser^^Sa re-spons^^Savel
+ []
+
+[14 <./diagrama_componentes.png>]) [15]
 \openout2 = `video_1.aux'.
 
  (video_1.tex
 Chapter 8.
-) [15
+) [16
 
 
 
+
+]
+\openout2 = `atam.aux'.
+
+ (atam.tex
+Chapter 9.
+[17
+
+
+
+
+]
+Overfull \hbox (20.47371pt too wide) in paragraph at lines 68--70
+\OT1/cmr/m/n/12 mos demon-stram como ser~ao sat-is-feitos os atrib-u-tos de qual-i-dade do soft-ware(requisitos
+ []
+
+[18]
+<padrao_mvc.png, id=455, 608.58948pt x 456.44211pt>
+File: padrao_mvc.png Graphic file (type png)
+<use padrao_mvc.png>
+Package pdftex.def Info: padrao_mvc.png  used on input line 161.
+(pdftex.def)             Requested size: 418.25368pt x 313.6987pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./padrao_mvc.png>]
+<front_end_navegador_material.png, id=467, 1128.46594pt x 698.61pt>
+File: front_end_navegador_material.png Graphic file (type png)
+<use front_end_navegador_material.png>
+Package pdftex.def Info: front_end_navegador_material.png  used on input line 219.
+(pdftex.def)             Requested size: 418.25368pt x 258.92937pt.
+<front_end_celular_material.png, id=468, 1137.4997pt x 703.12688pt>
+File: front_end_celular_material.png Graphic file (type png)
+<use front_end_celular_material.png>
+Package pdftex.def Info: front_end_celular_material.png  used on input line 226.
+(pdftex.def)             Requested size: 418.25368pt x 258.5328pt.
+ [21] [22 <./front_end_navegador_material.png>]
+Overfull \vbox (57.20013pt too high) has occurred while \output is active []
+
+ [23 <./front_end_celular_material.png>]
+<senha_criptografada.png, id=487, 635.37375pt x 222.8325pt>
+File: senha_criptografada.png Graphic file (type png)
+<use senha_criptografada.png>
+Package pdftex.def Info: senha_criptografada.png  used on input line 283.
+(pdftex.def)             Requested size: 418.25368pt x 146.69249pt.
+
+Overfull \hbox (15.10434pt too wide) in paragraph at lines 333--336
+[]\OT1/cmr/m/n/12 Neste que-sito foi de-sen-volvido um m^^Sodulo de au-t-en-tica^^Xc~ao baseado em JWT(JSON
+ []
+
+[24 <./senha_criptografada.png>]
+<codigo_fonte_jwt.png, id=495, 1922.68312pt x 757.32938pt>
+File: codigo_fonte_jwt.png Graphic file (type png)
+<use codigo_fonte_jwt.png>
+Package pdftex.def Info: codigo_fonte_jwt.png  used on input line 339.
+(pdftex.def)             Requested size: 418.25368pt x 164.74092pt.
+<acesso_sem_token.png, id=496, 1902.3572pt x 750.55406pt>
+File: acesso_sem_token.png Graphic file (type png)
+<use acesso_sem_token.png>
+Package pdftex.def Info: acesso_sem_token.png  used on input line 346.
+(pdftex.def)             Requested size: 418.25368pt x 165.00787pt.
+<acesso_com_token.png, id=497, 1909.1325pt x 764.10469pt>
+File: acesso_com_token.png Graphic file (type png)
+<use acesso_com_token.png>
+Package pdftex.def Info: acesso_com_token.png  used on input line 353.
+(pdftex.def)             Requested size: 418.25368pt x 167.39233pt.
+ [25 <./codigo_fonte_jwt.png> <./acesso_sem_token.png>] [26 <./acesso_com_token.png>]
+Overfull \vbox (61.5507pt too high) has occurred while \output is active []
+
+ [27]
+<interoperabilidade_cielo_controller.png, id=517, 1455.18657pt x 759.58781pt>
+File: interoperabilidade_cielo_controller.png Graphic file (type png)
+<use interoperabilidade_cielo_controller.png>
+Package pdftex.def Info: interoperabilidade_cielo_controller.png  used on input line 417.
+(pdftex.def)             Requested size: 418.25368pt x 218.31606pt.
+<interoperabilidade_cielo_service.png, id=518, 1391.95032pt x 762.59906pt>
+File: interoperabilidade_cielo_service.png Graphic file (type png)
+<use interoperabilidade_cielo_service.png>
+Package pdftex.def Info: interoperabilidade_cielo_service.png  used on input line 424.
+(pdftex.def)             Requested size: 418.25368pt x 229.14221pt.
+<interoperabilidade_retorno_insominia.png, id=519, 1924.94156pt x 770.88pt>
+File: interoperabilidade_retorno_insominia.png Graphic file (type png)
+<use interoperabilidade_retorno_insominia.png>
+Package pdftex.def Info: interoperabilidade_retorno_insominia.png  used on input line 431.
+(pdftex.def)             Requested size: 418.25368pt x 167.50037pt.
+ [28 <./interoperabilidade_cielo_controller.png> <./interoperabilidade_cielo_service.png>] [29 <./interoperabilidade_retorno_insominia.png>]
+<desempenho.png, id=536, 1701.35625pt x 690.32906pt>
+File: desempenho.png Graphic file (type png)
+<use desempenho.png>
+Package pdftex.def Info: desempenho.png  used on input line 489.
+(pdftex.def)             Requested size: 418.25368pt x 169.70618pt.
+ [30 <./desempenho.png>]
+Chapter 10.
+
+Overfull \hbox (5.28488pt too wide) in paragraph at lines 499--520
+[] 
+ []
+
+[31
+
+]
+Chapter 11.
+
+Overfull \hbox (24.39034pt too wide) in paragraph at lines 527--530
+\OT1/cmr/m/n/12 s^^Solida, pro-por-cio-nando uma es-tru-tura or-ga-ni-zada e mod-u-lar que fa-cil-i-tar^^Sa a manuten^^Xc~ao
+ []
+
+) [32
 
 ] (principal.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -513,45 +718,45 @@ Underfull \hbox (badness 4913) in paragraph at lines 21--27
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 []\OT1/cmr/m/n/12 Lucas Muribeca.  De-liv-ery de al-i-men-tos deve au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 \OT1/cmr/m/n/12 men-tar 7,5 []$\OT1/cmtt/m/n/12 https : / / redepara . com . br / Noticia / 231697 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 \OT1/cmtt/m/n/12 delivery-[]de-[]alimentos-[]deve-[]aumentar-[]7-[]5-[]em-[]2023-[]no-[]brasil# : [] :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
 \OT1/cmtt/m/n/12 text = De % 20acordo % 20com % 20o % 20Instituto ,[] restaurante % 20Engenho %
  []
 
-) [16
+) [33
 
 
 
-] (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux))
+] (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux) (atam.aux))
 Package rerunfilecheck Info: File `principal.out' has not changed.
-(rerunfilecheck)             Checksum: F165E78030A6B4F7037630CD89EC2F68;7970.
+(rerunfilecheck)             Checksum: 4B98A3C4AE55CBE1C8F82CD6FA53042D;11065.
  ) 
 Here is how much of TeX's memory you used:
- 14799 strings out of 475385
- 264917 string characters out of 2786722
- 588350 words of memory out of 3000000
- 35852 multiletter control sequences out of 15000+600000
+ 16249 strings out of 475385
+ 289571 string characters out of 2786722
+ 613682 words of memory out of 3000000
+ 37170 multiletter control sequences out of 15000+600000
  474511 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,77p,454b,459s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,15n,77p,608b,497s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\julio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on principal.pdf (18 pages, 265736 bytes).
+Output written on principal.pdf (35 pages, 1875264 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 

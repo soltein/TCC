@@ -41,4 +41,33 @@
 \contentsline {section}{\numberline {7.1}Diagrama de Contexto}{12}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Diagrama de Container}{13}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Diagrama de Componentes}{14}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Vídeo Apresentação 1}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Vídeo Apresentação 1}{16}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Avaliação Arquitetural ATAM}{17}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Análise das abordagens arquiteturais}{17}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Manutenabilidade}{17}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Usabilidade}{17}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Segurança}{17}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Interoperabilidade}{17}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}Desempenho}{18}{subsection.9.1.5}%
+\contentsline {section}{\numberline {9.2}Cenários}{18}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Cenário 1}{18}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Cenário 2}{18}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Cenário 3}{18}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Cenário 4}{18}{subsection.9.2.4}%
+\contentsline {subsection}{\numberline {9.2.5}Cenário 5}{18}{subsection.9.2.5}%
+\contentsline {subsection}{\numberline {9.2.6}Cenário 6}{18}{subsection.9.2.6}%
+\contentsline {section}{\numberline {9.3}Evidências da Avaliação de Cenários}{19}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Cenário 1}{19}{subsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.1.1}Evidência do Cenário 1}{19}{subsubsection.9.3.1.1}%
+\contentsline {subsection}{\numberline {9.3.2}Cenário 2}{21}{subsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.2.1}Evidência do Cenário 2}{21}{subsubsection.9.3.2.1}%
+\contentsline {subsection}{\numberline {9.3.3}Cenário 3}{23}{subsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.3.1}Evidência do Cenário 3}{24}{subsubsection.9.3.3.1}%
+\contentsline {subsection}{\numberline {9.3.4}Cenário 4}{24}{subsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.4.1}Evidência do Cenário 4}{25}{subsubsection.9.3.4.1}%
+\contentsline {subsection}{\numberline {9.3.5}Cenário 5}{27}{subsection.9.3.5}%
+\contentsline {subsubsection}{\numberline {9.3.5.1}Evidência do Cenário 5}{28}{subsubsection.9.3.5.1}%
+\contentsline {subsection}{\numberline {9.3.6}Cenário 6}{29}{subsection.9.3.6}%
+\contentsline {subsubsection}{\numberline {9.3.6.1}Evidência do Cenário 6}{30}{subsubsection.9.3.6.1}%
+\contentsline {chapter}{\numberline {10}Avaliação crítica dos resultados}{31}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Conclusão}{32}{chapter.11}%

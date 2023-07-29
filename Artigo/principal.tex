@@ -7,13 +7,25 @@
 \usepackage{pifont}
 \usepackage{pgfmath}
 \usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{tabularx}
+\usepackage{cellspace}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+
+\setcounter{secnumdepth}{3} 
 
 \titleformat{\chapter}[hang]{\normalfont\bfseries}{\thechapter.}{1em}{}
 \titleformat{\section}[hang]{\normalfont\bfseries}{\thesection.}{1em}{}
 \titleformat{\subsection}[hang]{\normalfont\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}[hang]{\normalfont\bfseries}{\thesubsubsection.}{0.5em}{}
 \titlespacing{\chapter}{0pt}{-1cm}{1cm}
 \titlespacing{\section}{0pt}{0.5cm}{0.2cm}
 \titlespacing{\subsection}{0pt}{0.3cm}{0.1cm}
+\titlespacing{\subsubsection}{0pt}{0.6cm}{0.2cm}
+
 
 
 \begin{document}
@@ -30,6 +42,7 @@
 \include{mecanismos_arquiteturais.tex}
 \include{modelagem_arquitetural.tex}
 \include{video_1.tex}
+\include{atam.tex}
 
 \bibliographystyle{plain}
 \bibliography{bibliografia}

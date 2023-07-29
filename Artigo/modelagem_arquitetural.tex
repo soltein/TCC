@@ -8,11 +8,11 @@ responsável por gerenciar todo o estabelecimento, e os atores como clientes e a
 e são responsáveis pela administração dentro do software respectivamente. Podemos verificar ainda 
 os sistemas externos como PagSeguro e Ifood para pagamento e pedidos online respectivamente.
 \begin{figure}[h]
-    \centering
-    \includegraphics[width=1\textwidth]{diagrama_contexto.png}
-    \caption{Diagrama de Contexto}
-    \label{fig:Diagrama de Contexto}
-  \end{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{diagrama_contexto.png}
+  \caption{Diagrama de Contexto}
+  \label{fig:Diagrama de Contexto}
+\end{figure}
 
   \href{https://github.com/soltein/TCC/blob/main/Diagramas/out/diagrama_contexto/diagrama_contexto.png}{Imagem resolução maior}
 
@@ -47,3 +47,19 @@ os sistemas externos como PagSeguro e Ifood para pagamento e pedidos online resp
   \end{figure}
 
   \href{https://github.com/soltein/TCC/blob/main/Diagramas/out/diagrama_componentes.png}{Imagem resolução maior}
+
+  Podemos observar no diagrama de componentes que temos os seguintes componentes:
+
+  \begin{itemize}
+    \item frontend Cliente: Componente que representa o código feito utilizando framework Angular para interação do cliente com o sistema delivery.
+    \item frontend Administrador: Componente que representa o código feito utilizando framework Angular para interação do atendente/administrador com o sistema delivery. Este será somente um front end e teremos os níveis de acesso.
+    \item Login Managment: Componente que representa o código que será responsável pelo login do usuário.
+    \item User Managment: Componente que representa o código que será responsável pelo controle dos usuários do sistema.
+    \item Order Managment: Componente que representa o código que será responsável pelo controle das vendas do sistema.
+    \item Product Managment: Componente que representa o código que será responsável pelo controle dos produtos do sistema.
+    \item Stock Managment: Componente que representa o código que será responsável pelo controle de estoque do sistema.
+    \item Financial Managment: Componente que representa o código que será responsável pelo controle das informações financeiras do sistema.
+    \item Database Managment: Componente que representa o código que será responsável pelo controle de banco de dados.
+    \item iFood Managment: Componente que representa o código que será responsável pelo controle da integração com o ifood do sistema.
+    \item PagSeguro Managment: Componente que representa o código que será responsável pelo controle da integração com o pagseguro do sistema.
+  \end{itemize}
