@@ -71,3 +71,5 @@
 \contentsline {subsubsection}{\numberline {9.3.6.1}Evidência do Cenário 6}{30}{subsubsection.9.3.6.1}%
 \contentsline {chapter}{\numberline {10}Avaliação crítica dos resultados}{31}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Conclusão}{32}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Repositórios}{33}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Vídeo Apresentação}{34}{chapter.13}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.18)  29 JUL 2023 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.18)  29 JUL 2023 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -321,24 +321,24 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 ) (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux) (atam.aux))
 \openout1 = `principal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -399,7 +399,7 @@ Package grfext Info: Graphics extension search list:
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 32.
  (principal.out) (principal.out)
 \@outlinefile=\write3
 \openout3 = `principal.out'.
@@ -433,7 +433,7 @@ l.42 ....2}Diagrama de Container}{13}{section.7.2}
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \include{introducao.tex}
+l.38 \include{introducao.tex}
                               [2]
 \openout2 = `introducao.aux'.
 
@@ -527,7 +527,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 34--34
 
  (modelagem_arquitetural.tex
 Chapter 7.
-<diagrama_contexto.png, id=412, 636.3775pt x 612.2875pt>
+<diagrama_contexto.png, id=422, 636.3775pt x 612.2875pt>
 File: diagrama_contexto.png Graphic file (type png)
 <use diagrama_contexto.png>
 Package pdftex.def Info: diagrama_contexto.png  used on input line 12.
@@ -538,12 +538,12 @@ Package pdftex.def Info: diagrama_contexto.png  used on input line 12.
 
 
  <./diagrama_contexto.png (PNG copy)>]
-<diagrama_container.png, id=419, 775.89874pt x 943.525pt>
+<diagrama_container.png, id=429, 775.89874pt x 943.525pt>
 File: diagrama_container.png Graphic file (type png)
 <use diagrama_container.png>
 Package pdftex.def Info: diagrama_container.png  used on input line 31.
 (pdftex.def)             Requested size: 376.42575pt x 457.75304pt.
-<diagrama_componentes.png, id=421, 1576.89125pt x 1105.12875pt>
+<diagrama_componentes.png, id=431, 1576.89125pt x 1105.12875pt>
 File: diagrama_componentes.png Graphic file (type png)
 <use diagrama_componentes.png>
 Package pdftex.def Info: diagrama_componentes.png  used on input line 44.
@@ -579,7 +579,7 @@ Overfull \hbox (20.47371pt too wide) in paragraph at lines 68--70
  []
 
 [18]
-<padrao_mvc.png, id=455, 608.58948pt x 456.44211pt>
+<padrao_mvc.png, id=465, 608.58948pt x 456.44211pt>
 File: padrao_mvc.png Graphic file (type png)
 <use padrao_mvc.png>
 Package pdftex.def Info: padrao_mvc.png  used on input line 161.
@@ -589,12 +589,12 @@ Package pdftex.def Info: padrao_mvc.png  used on input line 161.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19] [20 <./padrao_mvc.png>]
-<front_end_navegador_material.png, id=467, 1128.46594pt x 698.61pt>
+<front_end_navegador_material.png, id=477, 1128.46594pt x 698.61pt>
 File: front_end_navegador_material.png Graphic file (type png)
 <use front_end_navegador_material.png>
 Package pdftex.def Info: front_end_navegador_material.png  used on input line 219.
 (pdftex.def)             Requested size: 418.25368pt x 258.92937pt.
-<front_end_celular_material.png, id=468, 1137.4997pt x 703.12688pt>
+<front_end_celular_material.png, id=478, 1137.4997pt x 703.12688pt>
 File: front_end_celular_material.png Graphic file (type png)
 <use front_end_celular_material.png>
 Package pdftex.def Info: front_end_celular_material.png  used on input line 226.
@@ -603,7 +603,7 @@ Package pdftex.def Info: front_end_celular_material.png  used on input line 226.
 Overfull \vbox (57.20013pt too high) has occurred while \output is active []
 
  [23 <./front_end_celular_material.png>]
-<senha_criptografada.png, id=487, 635.37375pt x 222.8325pt>
+<senha_criptografada.png, id=497, 635.37375pt x 222.8325pt>
 File: senha_criptografada.png Graphic file (type png)
 <use senha_criptografada.png>
 Package pdftex.def Info: senha_criptografada.png  used on input line 283.
@@ -614,17 +614,17 @@ Overfull \hbox (15.10434pt too wide) in paragraph at lines 333--336
  []
 
 [24 <./senha_criptografada.png>]
-<codigo_fonte_jwt.png, id=495, 1922.68312pt x 757.32938pt>
+<codigo_fonte_jwt.png, id=505, 1922.68312pt x 757.32938pt>
 File: codigo_fonte_jwt.png Graphic file (type png)
 <use codigo_fonte_jwt.png>
 Package pdftex.def Info: codigo_fonte_jwt.png  used on input line 339.
 (pdftex.def)             Requested size: 418.25368pt x 164.74092pt.
-<acesso_sem_token.png, id=496, 1902.3572pt x 750.55406pt>
+<acesso_sem_token.png, id=506, 1902.3572pt x 750.55406pt>
 File: acesso_sem_token.png Graphic file (type png)
 <use acesso_sem_token.png>
 Package pdftex.def Info: acesso_sem_token.png  used on input line 346.
 (pdftex.def)             Requested size: 418.25368pt x 165.00787pt.
-<acesso_com_token.png, id=497, 1909.1325pt x 764.10469pt>
+<acesso_com_token.png, id=507, 1909.1325pt x 764.10469pt>
 File: acesso_com_token.png Graphic file (type png)
 <use acesso_com_token.png>
 Package pdftex.def Info: acesso_com_token.png  used on input line 353.
@@ -633,23 +633,23 @@ Package pdftex.def Info: acesso_com_token.png  used on input line 353.
 Overfull \vbox (61.5507pt too high) has occurred while \output is active []
 
  [27]
-<interoperabilidade_cielo_controller.png, id=517, 1455.18657pt x 759.58781pt>
+<interoperabilidade_cielo_controller.png, id=527, 1455.18657pt x 759.58781pt>
 File: interoperabilidade_cielo_controller.png Graphic file (type png)
 <use interoperabilidade_cielo_controller.png>
 Package pdftex.def Info: interoperabilidade_cielo_controller.png  used on input line 417.
 (pdftex.def)             Requested size: 418.25368pt x 218.31606pt.
-<interoperabilidade_cielo_service.png, id=518, 1391.95032pt x 762.59906pt>
+<interoperabilidade_cielo_service.png, id=528, 1391.95032pt x 762.59906pt>
 File: interoperabilidade_cielo_service.png Graphic file (type png)
 <use interoperabilidade_cielo_service.png>
 Package pdftex.def Info: interoperabilidade_cielo_service.png  used on input line 424.
 (pdftex.def)             Requested size: 418.25368pt x 229.14221pt.
-<interoperabilidade_retorno_insominia.png, id=519, 1924.94156pt x 770.88pt>
+<interoperabilidade_retorno_insominia.png, id=529, 1924.94156pt x 770.88pt>
 File: interoperabilidade_retorno_insominia.png Graphic file (type png)
 <use interoperabilidade_retorno_insominia.png>
 Package pdftex.def Info: interoperabilidade_retorno_insominia.png  used on input line 431.
 (pdftex.def)             Requested size: 418.25368pt x 167.50037pt.
  [28 <./interoperabilidade_cielo_controller.png> <./interoperabilidade_cielo_service.png>] [29 <./interoperabilidade_retorno_insominia.png>]
-<desempenho.png, id=536, 1701.35625pt x 690.32906pt>
+<desempenho.png, id=546, 1701.35625pt x 690.32906pt>
 File: desempenho.png Graphic file (type png)
 <use desempenho.png>
 Package pdftex.def Info: desempenho.png  used on input line 489.
@@ -670,7 +670,35 @@ Overfull \hbox (24.39034pt too wide) in paragraph at lines 527--530
 \OT1/cmr/m/n/12 s^^Solida, pro-por-cio-nando uma es-tru-tura or-ga-ni-zada e mod-u-lar que fa-cil-i-tar^^Sa a manuten^^Xc~ao
  []
 
-) [32
+[32
+
+]
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--552
+
+ []
+
+[33
+
+]
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+
+ []
+
+) [34
 
 ] (principal.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -737,26 +765,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
 \OT1/cmtt/m/n/12 text = De % 20acordo % 20com % 20o % 20Instituto ,[] restaurante % 20Engenho %
  []
 
-) [33
+) [35
 
 
 
 ] (principal.aux (pagina-de-rosto.aux) (introducao.aux) (objetivos.aux) (restricoes_arquiteturais.aux) (requisitos_funcionais.aux) (requisitos_nao_funcionais.aux) (mecanismos_arquiteturais.aux) (modelagem_arquitetural.aux) (video_1.aux) (atam.aux))
 Package rerunfilecheck Info: File `principal.out' has not changed.
-(rerunfilecheck)             Checksum: 4B98A3C4AE55CBE1C8F82CD6FA53042D;11065.
+(rerunfilecheck)             Checksum: 1CB3928823C6D69FA5D15D29F1E8A445;11320.
  ) 
 Here is how much of TeX's memory you used:
- 16249 strings out of 475385
- 289571 string characters out of 2786722
+ 16255 strings out of 475385
+ 289629 string characters out of 2786722
  613682 words of memory out of 3000000
- 37170 multiletter control sequences out of 15000+600000
+ 37172 multiletter control sequences out of 15000+600000
  474511 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,15n,77p,608b,497s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\julio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on principal.pdf (35 pages, 1875264 bytes).
+Output written on principal.pdf (37 pages, 1880281 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 607 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 623 words of extra memory for PDF output out of 10000 (max. 10000000)
 
